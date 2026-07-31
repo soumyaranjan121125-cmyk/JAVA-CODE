@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Start small. Ship something.");
+        //Reverse a string.
+        String name = "Ranjan";
+        String reverseName ="";
+            for(int i = name.length()-1;i>=0;i--){
+                reverseName = reverseName+name.charAt(i);
+                //System.out.println(reverseName);
+            
+        }
+        System.out.println(reverseName);
+    }
+}
